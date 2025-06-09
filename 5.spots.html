@@ -301,7 +301,7 @@
     const dogName = params.get('dogName') || '';
     const dogAge  = params.get('dogAge')  || '';
     document.getElementById('back-btn').href =
-      `1.jeju.html?dogName=${encodeURIComponent(dogName)}&dogAge=${encodeURIComponent(dogAge)}`;
+      `index.html?dogName=${encodeURIComponent(dogName)}&dogAge=${encodeURIComponent(dogAge)}`;
     document.getElementById('page-title').innerText =
       `${dogAge}살 ${dogName}과 함께 즐기는 제주`;
   </script>

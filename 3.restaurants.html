@@ -109,9 +109,9 @@
     const dogName = params.get('dogName') || '';
     const dogAge  = params.get('dogAge') || '';
     // 이전으로 버튼 링크 설정
-    document.getElementById('back-btn').href = `1.jeju.html?dogName=${encodeURIComponent(dogName)}&dogAge=${encodeURIComponent(dogAge)}`;
+    document.getElementById('back-btn').href = `index.html?dogName=${encodeURIComponent(dogName)}&dogAge=${encodeURIComponent(dogAge)}`;
     // 타이틀 변경
-    document.getElementById('back-btn').href = `1.jeju.html?dogName=${encodeURIComponent(dogName)}&dogAge=${encodeURIComponent(dogAge)}`;
+    document.getElementById('back-btn').href = `index.html?dogName=${encodeURIComponent(dogName)}&dogAge=${encodeURIComponent(dogAge)}`;
     document.getElementById('page-title').innerText = `${dogAge}살 ${dogName}과 함께 먹을 수 있는 식당`;
   </script>
    <iframe
